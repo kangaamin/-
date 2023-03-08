@@ -1,0 +1,324 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0%; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: #f7f5f0;
+  z-index: 100;
+}
+
+.logo, .menu {
+  align-items: center;
+}
+
+.logo img {
+
+  padding-left: 100px;
+  z-index: 1000; /* 로고의 z-index 값을 크게 지정 앞으로 뺄수 있음*/
+  margin-top: 1.8em;
+  height: 50px; /* 로고 이미지의 높이를 조정 */
+}
+.nav {
+  display: flex;
+}
+.nav ul {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+
+.nav li {
+  
+  font-size: 12px;
+  padding-left: 5%;
+  display: inline-block;
+  width:100px; /* 너비 줄이기 */
+/*   white-space: nowrap; */
+}
+
+
+.nav ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f5f0;
+  z-index:-1
+  
+}
+
+.nav li {
+  margin: 0 0%;
+  padding: 10px;
+}
+
+.nav a {
+    font-kerning: normal;
+  position: absolute;
+  top: 60px;
+  padding: 5px 0;
+  margin: 0;
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.login {
+  position: absolute;
+  font-size: 3%;
+  top:-10%;
+  right: 20px;
+  width: 200px;
+  padding: 30px;
+  display: flex;
+    justify-content: space-between;
+  list-style: none;
+}
+
+.nav li.login:hover 
+.login {
+  display: block;
+}
+.nav ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f5f0;
+  z-index: -1;
+  height: 80px; /* 높이 조절 */
+}
+
+.main img {
+  margin-top: 6.8em;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+.blossome {
+position: absolute;
+  top: 130px;
+  left: 33%;
+}
+.blossome img {
+      width: 68%;
+}
+.love {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.love img{
+  width: 60%;
+}
+
+.btn {
+  position: absolute;
+  top: 250px;
+  left: 110px;
+    width: 4%;
+    margin: 0 0;
+  padding: 0;
+    color: #e30222;
+    border: 2px solid #e30222;
+   background-color: #fffff;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    width: 10%;
+    height: 5%;
+    font-size: 8px;
+    line-height: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.berry {
+  position: absolute;
+  top: 180px;
+  left: 45%;
+}
+.berry img {
+  width: 68%;
+}
+
+.brown {
+  position: absolute;
+  top: 130px;
+  left: 60%;
+}
+
+.brown img {
+  width: 68%;
+}
+
+.two img{
+  
+  margin-top: -1em;
+    padding: 0;
+  width: 100%;
+}
+
+.bigbox {
+  margin-top: -15em;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #1e3932;
+}
+.new-rewards_logo {
+  position: absolute;
+left: 15%;
+  top: 88%;  
+}
+
+.new-rewards_logo img{
+  width: 150px;
+}
+
+.new-rewards_conts .info-cont_txt h2 {
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: normal;
+    border-bottom: 1px solid #4b615b;
+}
+
+.new-rewards_conts .info-cont {
+    position: relative;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #4b615b;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 220px;
+  margin-left: 400px;
+  color: #ffffff; /* 폰트색을 하얀색으로 지정 */
+/*   text-align: center; /* 가운데 정렬 */ 
+}
+p{
+    font-size: 15px;
+  margin-top: 10px;
+  margin-left: 400px;
+  color: #ffffff;
+}
+.line{
+  position: absolute;
+  top: 97%;
+  left: 28%;
+}
+.line img {
+  width:80%;
+  
+}
+.btn-signin_join {
+  background-color: #01704a;
+  padding: 8px;
+
+
+}
+
+.btn-signin_join {
+  position: absolute;
+  left: 65%;
+  top: 92%;
+}
+.btn-signin_login  {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    line-height: 36px;
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-signin_login {
+  position: absolute;
+  left: 72%;
+  top: 92%;
+  border: 1px solid white;
+}
+
+.btn_egift{
+  position: absolute;
+  top: 108%;
+  left: 30%;
+  text-align: center;
+  width: 700px;
+  border: 1px solid white;
+  
+  
+}
+.btn_egift a{
+ color: white;
+  font-style: none;
+}
+.main2 img{
+  width: 100%;
+
+}
+
+.coffee{
+
+  position: absolute;
+  top: 800px;
+  left: 15%;
+}
+.coffee img{
+  width: 70%;
+}
+.main3{
+    margin: 0;
+  padding: 0;
+}
+.main3 img{
+  width: 100%;
+}
+.main5 img{
+  width: 100%;
+}
+.main6 img{
+  width: 100%;
+}
+.main img{
+  width: 100%;
+}
+footer#footer {
+    background: #2C2A29;
+    clear: both;
+    position: relative;
+    width: 100%;
+}
